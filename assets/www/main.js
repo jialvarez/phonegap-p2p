@@ -36,6 +36,7 @@ function onChange(e) {
 
 var ready = function () {
     document.getElementById('checkbox').addEventListener("change", onChange, false);
+    document.addEventListener("menubutton", showSampleData, false);
 };
 
 document.addEventListener('deviceready', ready, false);
@@ -93,5 +94,3 @@ function showSampleData() {
     mimeTypeField.value = record.mimeType;
     payloadField.value = record.payload;    
 }
-
-document.addEventListener("menubutton", showSampleData, false);

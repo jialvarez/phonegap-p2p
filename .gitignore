@@ -2,6 +2,7 @@ bin/
 gen/
 .idea/
 *.iml
+out/
 pg.sh
 update.sh
 local.properties
