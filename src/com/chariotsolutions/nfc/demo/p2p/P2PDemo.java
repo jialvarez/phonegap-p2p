@@ -1,6 +1,6 @@
 package com.chariotsolutions.nfc.demo.p2p;
 
-import com.phonegap.*;
+import org.apache.cordova.*;
 import android.os.Bundle;
 
 public class P2PDemo extends DroidGap {
